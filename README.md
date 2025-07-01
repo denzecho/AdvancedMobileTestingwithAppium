@@ -6,4 +6,4 @@ Find appActivity and appPackage
 - run command: adb shell dumpsys activity activities | findstr "ResumedActivity"
   - example output: ResumedActivity: ActivityRecord{abcd123 io.appium.android.apis/.ApiDemos}
   - appPackage = io.appium.android.apis
-  - appActivity = io.appium.android.apis.ApiDemos
+  - appActivity = .ApiDemos
